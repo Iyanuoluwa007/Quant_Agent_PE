@@ -412,7 +412,7 @@ Trading involves significant risk of loss. Past performance does not guarantee f
 
 ## License
 
-MIT
+MIT License -- use at your own risk.
 
 ---
 
