@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "version": "2.1",
+    "edition": "Public Edition (QA-PE)",
+    "mode": "Simulated",
+    "last_updated": "2026-02-28T21:00:00Z",
+    "initial_capital": 100000,
+    "broker": "Simulated Adapter",
+    "status": "DEMO -- No live trading"
+  },
+  "performance": {
+    "current_value": 108742.31,
+    "total_return_pct": 8.74,
+    "total_return_usd": 8742.31,
+    "max_drawdown_pct": -4.82,
+    "sharpe_ratio": 1.34,
+    "sortino_ratio": 1.89,
+    "calmar_ratio": 1.81,
+    "win_rate_pct": 61.2,
+    "profit_factor": 1.73,
+    "avg_hold_days": 4.2,
+    "total_trades": 147,
+    "equity_curve": [
+      { "date": "2025-09-01", "value": 100000 },
+      { "date": "2025-09-15", "value": 100320 },
+      { "date": "2025-10-01", "value": 101150 },
+      { "date": "2025-10-15", "value": 100870 },
+      { "date": "2025-11-01", "value": 102340 },
+      { "date": "2025-11-15", "value": 103100 },
+      { "date": "2025-12-01", "value": 102580 },
+      { "date": "2025-12-15", "value": 103920 },
+      { "date": "2026-01-01", "value": 104670 },
+      { "date": "2026-01-15", "value": 105380 },
+      { "date": "2026-02-01", "value": 95180 },
+      { "date": "2026-02-05", "value": 96430 },
+      { "date": "2026-02-10", "value": 99150 },
+      { "date": "2026-02-15", "value": 103750 },
+      { "date": "2026-02-20", "value": 106320 },
+      { "date": "2026-02-25", "value": 107890 },
+      { "date": "2026-02-28", "value": 108742 }
+    ],
+    "daily_returns": [
+      { "date": "2026-02-24", "pct": 0.42 },
+      { "date": "2026-02-25", "pct": -0.18 },
+      { "date": "2026-02-26", "pct": 0.71 },
+      { "date": "2026-02-27", "pct": 0.33 },
+      { "date": "2026-02-28", "pct": 0.12 }
+    ],
+    "weekly_returns": [
+      { "week": "W05", "pct": 1.82 },
+      { "week": "W06", "pct": -0.43 },
+      { "week": "W07", "pct": 2.14 },
+      { "week": "W08", "pct": 1.09 },
+      { "week": "W09", "pct": 0.79 }
+    ],
+    "sleeve_allocation_history": [
+      { "date": "2025-09-01", "short_term": 20, "mid_term": 30, "long_term": 50 },
+      { "date": "2025-10-01", "short_term": 18, "mid_term": 28, "long_term": 54 },
+      { "date": "2025-11-01", "short_term": 20, "mid_term": 30, "long_term": 50 },
+      { "date": "2025-12-01", "short_term": 15, "mid_term": 25, "long_term": 60 },
+      { "date": "2026-01-01", "short_term": 20, "mid_term": 30, "long_term": 50 },
+      { "date": "2026-02-01", "short_term": 8, "mid_term": 22, "long_term": 70 },
+      { "date": "2026-02-15", "short_term": 15, "mid_term": 28, "long_term": 57 },
+      { "date": "2026-02-28", "short_term": 19, "mid_term": 29, "long_term": 52 }
+    ]
+  },
+  "positions": [
+    { "ticker": "VOO", "sleeve": "long_term", "quantity": 12.4, "avg_price": 528.30, "current_price": 541.15, "market_value": 6710.26, "pnl": 159.34, "pnl_pct": 2.43 },
+    { "ticker": "QQQ", "sleeve": "long_term", "quantity": 8.2, "avg_price": 498.70, "current_price": 512.40, "market_value": 4201.68, "pnl": 112.34, "pnl_pct": 2.75 },
+    { "ticker": "VTI", "sleeve": "long_term", "quantity": 14.8, "avg_price": 272.10, "current_price": 278.55, "market_value": 4122.54, "pnl": 95.46, "pnl_pct": 2.37 },
+    { "ticker": "VXUS", "sleeve": "long_term", "quantity": 22.5, "avg_price": 56.40, "current_price": 57.80, "market_value": 1300.50, "pnl": 31.50, "pnl_pct": 2.48 },
+    { "ticker": "BND", "sleeve": "long_term", "quantity": 18.0, "avg_price": 72.30, "current_price": 72.15, "market_value": 1298.70, "pnl": -2.70, "pnl_pct": -0.21 },
+    { "ticker": "NVDA", "sleeve": "mid_term", "quantity": 25.0, "avg_price": 121.50, "current_price": 128.40, "market_value": 3210.00, "pnl": 172.50, "pnl_pct": 5.68 },
+    { "ticker": "AVGO", "sleeve": "mid_term", "quantity": 6.8, "avg_price": 198.20, "current_price": 205.70, "market_value": 1398.76, "pnl": 51.00, "pnl_pct": 3.78 },
+    { "ticker": "AMZN", "sleeve": "mid_term", "quantity": 14.0, "avg_price": 213.40, "current_price": 218.90, "market_value": 3064.60, "pnl": 77.00, "pnl_pct": 2.58 },
+    { "ticker": "META", "sleeve": "short_term", "quantity": 5.2, "avg_price": 612.80, "current_price": 621.50, "market_value": 3231.80, "pnl": 45.24, "pnl_pct": 1.42 },
+    { "ticker": "PLTR", "sleeve": "short_term", "quantity": 40.0, "avg_price": 82.10, "current_price": 84.75, "market_value": 3390.00, "pnl": 106.00, "pnl_pct": 3.23 }
+  ],
+  "recent_trades": [
+    { "timestamp": "2026-02-28T19:42:00Z", "action": "BUY", "ticker": "PLTR", "quantity": 40.0, "sleeve": "short_term", "confidence": 0.72, "reason": "RSI oversold bounce + volume spike", "status": "EXECUTED", "fill_price": 82.10 },
+    { "timestamp": "2026-02-28T15:18:00Z", "action": "SELL", "ticker": "AMD", "quantity": 18.0, "sleeve": "short_term", "confidence": 0.85, "reason": "Take profit target hit (+4.1%)", "status": "EXECUTED", "fill_price": 168.30 },
+    { "timestamp": "2026-02-28T15:05:00Z", "action": "BUY", "ticker": "META", "quantity": 5.2, "sleeve": "short_term", "confidence": 0.68, "reason": "MACD bullish crossover + support hold", "status": "EXECUTED", "fill_price": 612.80 },
+    { "timestamp": "2026-02-27T18:30:00Z", "action": "BUY", "ticker": "AVGO", "quantity": 6.8, "sleeve": "mid_term", "confidence": 0.74, "reason": "Confirmed uptrend, SMA20 > SMA50", "status": "EXECUTED", "fill_price": 198.20 },
+    { "timestamp": "2026-02-27T15:12:00Z", "action": "SELL", "ticker": "CRM", "quantity": 12.0, "sleeve": "mid_term", "confidence": 0.80, "reason": "Trailing stop triggered (-3.8%)", "status": "EXECUTED", "fill_price": 312.40 },
+    { "timestamp": "2026-02-26T19:45:00Z", "action": "BUY", "ticker": "VOO", "quantity": 2.4, "sleeve": "long_term", "confidence": 0.95, "reason": "DCA scheduled allocation", "status": "EXECUTED", "fill_price": 538.90 },
+    { "timestamp": "2026-02-26T15:30:00Z", "action": "BUY", "ticker": "NVDA", "quantity": 10.0, "sleeve": "mid_term", "confidence": 0.71, "reason": "Trend continuation, pullback to SMA20", "status": "EXECUTED", "fill_price": 124.80 },
+    { "timestamp": "2026-02-25T18:20:00Z", "action": "BUY", "ticker": "AMZN", "quantity": 14.0, "sleeve": "mid_term", "confidence": 0.69, "reason": "Volume confirmation + healthy RSI", "status": "EXECUTED", "fill_price": 213.40 },
+    { "timestamp": "2026-02-25T15:08:00Z", "action": "SELL", "ticker": "GOOGL", "quantity": 8.0, "sleeve": "short_term", "confidence": 0.82, "reason": "3-day hold limit reached", "status": "EXECUTED", "fill_price": 186.20 },
+    { "timestamp": "2026-02-24T19:55:00Z", "action": "BUY", "ticker": "QQQ", "quantity": 3.2, "sleeve": "long_term", "confidence": 0.95, "reason": "DCA scheduled allocation", "status": "EXECUTED", "fill_price": 501.30 }
+  ],
+  "risk": {
+    "regime": "NORMAL",
+    "vix_level": 18.4,
+    "risk_multiplier": 1.0,
+    "vol_scalar": 0.87,
+    "portfolio_beta": 0.94,
+    "beta_target_range": [0.6, 1.2],
+    "total_exposure_pct": 67.4,
+    "cash_reserve_pct": 32.6,
+    "kill_switch_active": false,
+    "kill_switch_threshold_pct": 20.0,
+    "checks_passed_today": 12,
+    "checks_blocked_today": 3,
+    "checks_passed_total": 892,
+    "checks_blocked_total": 147,
+    "limits": {
+      "max_daily_trades": 15,
+      "max_daily_loss_pct": 2.0,
+      "max_exposure_pct": 80.0,
+      "min_cash_reserve_pct": 15.0,
+      "max_sector_concentration_pct": 35.0,
+      "max_correlation_overlap": 4,
+      "confidence_threshold_short": 0.30,
+      "confidence_threshold_mid_long": 0.20
+    },
+    "blocked_examples": [
+      { "timestamp": "2026-02-28T18:42:00Z", "ticker": "COIN", "action": "BUY", "reason": "Confidence 0.24 below short-term threshold (0.30)", "sleeve": "short_term" },
+      { "timestamp": "2026-02-28T15:30:00Z", "ticker": "TSLA", "action": "BUY", "reason": "Sector concentration would exceed 35% (Technology)", "sleeve": "mid_term" },
+      { "timestamp": "2026-02-27T18:15:00Z", "ticker": "NVDA", "action": "BUY", "reason": "Duplicate: pending order exists for NVDA", "sleeve": "short_term" },
+      { "timestamp": "2026-02-27T15:45:00Z", "ticker": "AMD", "action": "BUY", "reason": "Correlation overlap: 4 positions in semiconductor group", "sleeve": "mid_term" },
+      { "timestamp": "2026-02-26T19:20:00Z", "ticker": "SMCI", "action": "BUY", "reason": "Trade value $3.80 below minimum ($5.00)", "sleeve": "short_term" }
+    ]
+  },
+  "intelligence": {
+    "meta_model": {
+      "trust_level": "moderate",
+      "claude_weight": 0.65,
+      "position_multiplier": 0.75,
+      "predictions_evaluated": 98,
+      "recent_accuracy_pct": 63.2,
+      "brier_score": 0.187
+    },
+    "calibration": {
+      "bins": [
+        { "range": "0-20%", "predicted": 0.10, "actual": 0.08, "count": 12 },
+        { "range": "20-40%", "predicted": 0.30, "actual": 0.25, "count": 24 },
+        { "range": "40-60%", "predicted": 0.50, "actual": 0.48, "count": 31 },
+        { "range": "60-80%", "predicted": 0.70, "actual": 0.64, "count": 22 },
+        { "range": "80-100%", "predicted": 0.90, "actual": 0.82, "count": 9 }
+      ]
+    },
+    "accuracy_by_sleeve": {
+      "short_term": { "win_rate": 58.3, "avg_return": 1.8, "trades": 48 },
+      "mid_term": { "win_rate": 64.7, "avg_return": 3.2, "trades": 51 },
+      "long_term": { "win_rate": 87.5, "avg_return": 2.1, "trades": 48 }
+    }
+  },
+  "etf_review": {
+    "last_review_date": "2026-01-15T14:30:00Z",
+    "next_review_due": "2026-04-15",
+    "status": "NO_CHANGES",
+    "market_outlook": "US equities remain supported by earnings growth despite elevated rates. International diversification continues to underperform. Bond allocation appropriate given current yield environment.",
+    "recommendations": [
+      { "ticker": "VOO", "action": "KEEP", "confidence": 0.95, "reasoning": "Core S&P 500 index. 3mo +4.2%, 6mo +8.1%. No reason to change." },
+      { "ticker": "QQQ", "action": "KEEP", "confidence": 0.92, "reasoning": "Strong tech performance. 3mo +5.8%, outpacing broad market." },
+      { "ticker": "VTI", "action": "KEEP", "confidence": 0.94, "reasoning": "Total market exposure. Slightly trails VOO but adds small/mid cap diversification." },
+      { "ticker": "VXUS", "action": "KEEP", "confidence": 0.78, "reasoning": "Underperforming domestic equities but provides geographic diversification." },
+      { "ticker": "BND", "action": "KEEP", "confidence": 0.88, "reasoning": "Yields attractive at current levels. Provides portfolio ballast." },
+      { "ticker": "VNQ", "action": "REDUCE", "confidence": 0.62, "reasoning": "REITs facing headwinds from elevated rates. 6mo -2.1%. Consider reducing from 5% to 3%." },
+      { "ticker": "GLD", "action": "KEEP", "confidence": 0.85, "reasoning": "Gold performing well as inflation hedge. 3mo +3.4%." },
+      { "ticker": "ARKK", "action": "KEEP", "confidence": 0.55, "reasoning": "Volatile but recovering. 3mo +7.2%. Monitoring closely." }
+    ],
+    "approval_status": "Demo only -- approvals disabled"
+  }
+}
