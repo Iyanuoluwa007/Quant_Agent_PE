@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "version": "2.1",
+    "edition": "Public Demo",
+    "mode": "Simulated",
+    "last_updated": "2026-01-01T00:00:00Z",
+    "initial_capital": 100000,
+    "broker": "Simulated Adapter",
+    "status": "DEMO DATA -- No live trading"
+  },
+  "performance": {
+    "current_value": 104250,
+    "total_return_pct": 4.25,
+    "total_return_usd": 4250,
+    "max_drawdown_pct": -3.5,
+    "sharpe_ratio": 1.1,
+    "win_rate_pct": 58.0,
+    "profit_factor": 1.4,
+    "avg_hold_days": 3.5,
+    "total_trades": 60,
+    "equity_curve": [
+      {
+        "date": "2025-10-01",
+        "value": 100000
+      },
+      {
+        "date": "2025-11-01",
+        "value": 100750
+      },
+      {
+        "date": "2025-12-01",
+        "value": 102300
+      },
+      {
+        "date": "2026-01-01",
+        "value": 104250
+      }
+    ],
+    "daily_returns": [
+      {
+        "date": "2025-12-28",
+        "pct": 0.30
+      },
+      {
+        "date": "2025-12-29",
+        "pct": -0.15
+      },
+      {
+        "date": "2025-12-30",
+        "pct": 0.45
+      },
+      {
+        "date": "2025-12-31",
+        "pct": 0.20
+      }
+    ],
+    "weekly_returns": [
+      {
+        "week": "W50",
+        "pct": 0.9
+      },
+      {
+        "week": "W51",
+        "pct": 0.6
+      },
+      {
+        "week": "W52",
+        "pct": 1.1
+      }
+    ],
+    "sleeve_allocation_history": [
+      {
+        "date": "2025-10-01",
+        "short_term": 20,
+        "mid_term": 30,
+        "long_term": 50
+      },
+      {
+        "date": "2025-11-01",
+        "short_term": 18,
+        "mid_term": 32,
+        "long_term": 50
+      },
+      {
+        "date": "2025-12-01",
+        "short_term": 22,
+        "mid_term": 28,
+        "long_term": 50
+      },
+      {
+        "date": "2026-01-01",
+        "short_term": 20,
+        "mid_term": 30,
+        "long_term": 50
+      }
+    ]
+  },
+  "positions": [
+    {
+      "ticker": "ETF1",
+      "sleeve": "long_term",
+      "quantity": 10,
+      "avg_price": 100,
+      "current_price": 105,
+      "market_value": 1050,
+      "pnl": 50,
+      "pnl_pct": 5.0
+    },
+    {
+      "ticker": "STOCK1",
+      "sleeve": "mid_term",
+      "quantity": 20,
+      "avg_price": 50,
+      "current_price": 53,
+      "market_value": 1060,
+      "pnl": 60,
+      "pnl_pct": 6.0
+    },
+    {
+      "ticker": "STOCK2",
+      "sleeve": "short_term",
+      "quantity": 30,
+      "avg_price": 30,
+      "current_price": 31,
+      "market_value": 930,
+      "pnl": 30,
+      "pnl_pct": 3.3
+    }
+  ],
+  "recent_trades": [
+    {
+      "timestamp": "2026-01-01T12:00:00Z",
+      "action": "BUY",
+      "ticker": "STOCK2",
+      "quantity": 30,
+      "sleeve": "short_term",
+      "confidence": 0.6,
+      "reason": "Demo trade signal",
+      "status": "EXECUTED",
+      "fill_price": 30
+    },
+    {
+      "timestamp": "2025-12-30T14:30:00Z",
+      "action": "SELL",
+      "ticker": "STOCK3",
+      "quantity": 15,
+      "sleeve": "mid_term",
+      "confidence": 0.7,
+      "reason": "Demo exit rule",
+      "status": "EXECUTED",
+      "fill_price": 42
+    },
+    {
+      "timestamp": "2025-12-29T16:00:00Z",
+      "action": "BUY",
+      "ticker": "ETF1",
+      "quantity": 5,
+      "sleeve": "long_term",
+      "confidence": 0.9,
+      "reason": "Scheduled allocation",
+      "status": "EXECUTED",
+      "fill_price": 100
+    }
+  ],
+  "risk": {
+    "regime": "NORMAL",
+    "risk_multiplier": 1.0,
+    "portfolio_beta": 0.9,
+    "total_exposure_pct": 60,
+    "cash_reserve_pct": 40,
+    "kill_switch_active": false,
+    "limits": {
+      "max_daily_trades": 10,
+      "max_exposure_pct": 80,
+      "min_cash_reserve_pct": 20
+    }
+  },
+  "intelligence": {
+    "meta_model": {
+      "trust_level": "moderate",
+      "confidence_weight": 0.5,
+      "predictions_evaluated": 30,
+      "recent_accuracy_pct": 60
+    },
+    "calibration": {
+      "bins": [
+        {
+          "range": "0-40%",
+          "predicted": 0.2,
+          "actual": 0.18,
+          "count": 10
+        },
+        {
+          "range": "40-70%",
+          "predicted": 0.5,
+          "actual": 0.48,
+          "count": 12
+        },
+        {
+          "range": "70-100%",
+          "predicted": 0.8,
+          "actual": 0.74,
+          "count": 8
+        }
+      ]
+    }
+  },
+  "etf_review": {
+    "last_review_date": "2025-12-01T12:00:00Z",
+    "next_review_due": "2026-03-01",
+    "status": "NO_CHANGES",
+    "market_outlook": "Example placeholder text describing a generic market outlook.",
+    "recommendations": [
+      {
+        "ticker": "ETF1",
+        "action": "KEEP",
+        "confidence": 0.9,
+        "reasoning": "Example placeholder recommendation for demo purposes."
+      }
+    ],
+    "approval_status": "Demo only"
+  }
+}

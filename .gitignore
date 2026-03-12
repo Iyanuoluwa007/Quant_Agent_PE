@@ -1,0 +1,79 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+.venv/
+venv/
+env/
+
+*.egg-info/
+dist/
+build/
+
+# ==============================
+# Environment (NEVER commit secrets)
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Runtime State & Data (ALL JSON)
+# ==============================
+# Ignore all runtime-generated JSON files
+# (trades.json, virtual_capital.json, calibration_data.json, etc.)
+*.json
+
+# BUT allow committed project files
+!public/demo_data.json
+!demo_data.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!vercel.json
+
+# ==============================
+# Runtime Artifacts
+# ==============================
+*.log
+scheduler.log
+.last_daily_summary
+.kill_switch
+
+# ==============================
+# Backtests & Generated Outputs
+# ==============================
+backtest_results/
+reports/
+exports/
+
+# ==============================
+# IDE
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# OS
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Node / Dashboard
+# ==============================
+node_modules/
+.next/
+out/
+
+# ==============================
+# VPS / Deployment
+# ==============================
+*.pid
+*.sqlite3
